@@ -1,0 +1,35 @@
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\bin\Debug\FileHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\bin\Debug\FileHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\obj\Debug\FileHandler.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\obj\Debug\FileHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\FileHandler\obj\Debug\FileHandler.pdb
+C:\Programming\NewRobot\Robot_10\FileHandler\bin\Debug\FileHandler.dll
+C:\Programming\NewRobot\Robot_10\FileHandler\bin\Debug\FileHandler.pdb
+C:\Programming\NewRobot\Robot_10\FileHandler\bin\Debug\Data.dll
+C:\Programming\NewRobot\Robot_10\FileHandler\bin\Debug\Data.pdb
+C:\Programming\NewRobot\Robot_10\FileHandler\obj\Debug\FileHandler.csprojResolveAssemblyReference.cache
+C:\Programming\NewRobot\Robot_10\FileHandler\obj\Debug\FileHandler.dll
+C:\Programming\NewRobot\Robot_10\FileHandler\obj\Debug\FileHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\bin\Debug\FileHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\bin\Debug\FileHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\bin\Debug\Data.dll
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\bin\Debug\Data.pdb
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\obj\Debug\FileHandler.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\obj\Debug\FileHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\FileHandler\obj\Debug\FileHandler.pdb
+D:\Projects\NewRobot\Robot_15\FileHandler\bin\Debug\FileHandler.dll
+D:\Projects\NewRobot\Robot_15\FileHandler\bin\Debug\FileHandler.pdb
+D:\Projects\NewRobot\Robot_15\FileHandler\bin\Debug\Data.dll
+D:\Projects\NewRobot\Robot_15\FileHandler\bin\Debug\Data.pdb
+D:\Projects\NewRobot\Robot_15\FileHandler\obj\Debug\FileHandler.csprojResolveAssemblyReference.cache
+D:\Projects\NewRobot\Robot_15\FileHandler\obj\Debug\FileHandler.dll
+D:\Projects\NewRobot\Robot_15\FileHandler\obj\Debug\FileHandler.pdb
+H:\NewRobot\Robot_16\FileHandler\bin\Debug\FileHandler.dll
+H:\NewRobot\Robot_16\FileHandler\bin\Debug\FileHandler.pdb
+H:\NewRobot\Robot_16\FileHandler\bin\Debug\Data.dll
+H:\NewRobot\Robot_16\FileHandler\bin\Debug\Data.pdb
+H:\NewRobot\Robot_16\FileHandler\obj\Debug\FileHandler.csprojResolveAssemblyReference.cache
+H:\NewRobot\Robot_16\FileHandler\obj\Debug\FileHandler.dll
+H:\NewRobot\Robot_16\FileHandler\obj\Debug\FileHandler.pdb

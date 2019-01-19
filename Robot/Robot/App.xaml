@@ -1,0 +1,18 @@
+﻿<Application x:Class="Robot.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+                <ResourceDictionary Source="StyleListView.xaml"/>
+                <ResourceDictionary Source="StyleAnimationen.xaml"/>
+                <ResourceDictionary Source="StyleGradients.xaml"/>
+                <ResourceDictionary Source="StyleDatagrid.xaml"/>
+                <ResourceDictionary Source="StyleTreeView.xaml"/>
+                <ResourceDictionary Source="StyleTabControl.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

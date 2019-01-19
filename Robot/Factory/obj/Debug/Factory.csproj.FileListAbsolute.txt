@@ -1,0 +1,196 @@
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Factory.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Factory.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\SerialPortHandler.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\SerialPortHandler.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\obj\Debug\Factory.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\obj\Debug\Factory.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Kinematics.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Kinematics.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Data.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\NC.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\Data.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Factory\obj\Debug\Factory.pdb
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Factory.dll
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Factory.pdb
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Data.dll
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Kinematics.dll
+E:\VisualStudio\Robot_3\Factory\bin\Debug\NC.dll
+E:\VisualStudio\Robot_3\Factory\bin\Debug\SerialPortHandler.dll
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Data.pdb
+E:\VisualStudio\Robot_3\Factory\bin\Debug\Kinematics.pdb
+E:\VisualStudio\Robot_3\Factory\bin\Debug\NC.pdb
+E:\VisualStudio\Robot_3\Factory\bin\Debug\SerialPortHandler.pdb
+E:\VisualStudio\Robot_3\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+E:\VisualStudio\Robot_3\Factory\obj\Debug\Factory.dll
+E:\VisualStudio\Robot_3\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\obj\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\obj\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Simulation.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Factory\bin\Debug\Simulation.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Factory.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Factory.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Data.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Kinematics.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\NC.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\SerialPortHandler.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Simulation.dll
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Data.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Kinematics.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\NC.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\SerialPortHandler.pdb
+C:\Programming\NewRobot\Robot_10\Factory\bin\Debug\Simulation.pdb
+C:\Programming\NewRobot\Robot_10\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+C:\Programming\NewRobot\Robot_10\Factory\obj\Debug\Factory.dll
+C:\Programming\NewRobot\Robot_10\Factory\obj\Debug\Factory.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Factory.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Factory.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Data.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Kinematics.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\NC.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Simulation.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Data.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Kinematics.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\NC.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\bin\Debug\Simulation.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_13_new_IK_Method\Factory\obj\Debug\Factory.dll
+D:\NewRobot\Robot_13_new_IK_Method\Factory\obj\Debug\Factory.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Factory.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Factory.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Data.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Kinematics.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\NC.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Simulation.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Data.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Kinematics.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\NC.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\bin\Debug\Simulation.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_14_new_IK_Method\Factory\obj\Debug\Factory.dll
+D:\NewRobot\Robot_14_new_IK_Method\Factory\obj\Debug\Factory.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Factory.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Factory.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Data.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Kinematics.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\NC.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\SerialPortHandler.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Simulation.dll
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Data.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Kinematics.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\NC.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\SerialPortHandler.pdb
+D:\Projects\NewRobot\Robot_15\Factory\bin\Debug\Simulation.pdb
+D:\Projects\NewRobot\Robot_15\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\Projects\NewRobot\Robot_15\Factory\obj\Debug\Factory.dll
+D:\Projects\NewRobot\Robot_15\Factory\obj\Debug\Factory.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\Factory.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\Factory.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\Data.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\Kinematics.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\NC.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\SerialPortHandler.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\Simulation.dll
+E:\NewRobot\Robot_16\Factory\bin\Debug\Data.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\Kinematics.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\NC.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\SerialPortHandler.pdb
+E:\NewRobot\Robot_16\Factory\bin\Debug\Simulation.pdb
+E:\NewRobot\Robot_16\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+E:\NewRobot\Robot_16\Factory\obj\Debug\Factory.dll
+E:\NewRobot\Robot_16\Factory\obj\Debug\Factory.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\Factory.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\Factory.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\Data.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\Kinematics.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\NC.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\SerialPortHandler.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\Simulation.dll
+H:\NewRobot\Robot_16\Factory\bin\Debug\Data.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\Kinematics.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\NC.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\SerialPortHandler.pdb
+H:\NewRobot\Robot_16\Factory\bin\Debug\Simulation.pdb
+H:\NewRobot\Robot_16\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+H:\NewRobot\Robot_16\Factory\obj\Debug\Factory.dll
+H:\NewRobot\Robot_16\Factory\obj\Debug\Factory.pdb

@@ -1,0 +1,55 @@
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+E:\VisualStudio\Robot_3\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+E:\VisualStudio\Robot_3\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+E:\VisualStudio\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+E:\VisualStudio\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+E:\VisualStudio\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+C:\Programming\NewRobot\Robot_10\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+C:\Programming\NewRobot\Robot_10\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+C:\Programming\NewRobot\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+C:\Programming\NewRobot\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+C:\Programming\NewRobot\Robot_10\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_13_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_14_new_IK_Method\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_14_new_IK_Method\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_14_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_14_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_14_new_IK_Method\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+D:\Projects\NewRobot\Robot_15\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+D:\Projects\NewRobot\Robot_15\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+D:\Projects\NewRobot\Robot_15\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+D:\Projects\NewRobot\Robot_15\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+D:\Projects\NewRobot\Robot_15\SerialPortHandler\obj\Debug\SerialPortHandler.pdb
+H:\NewRobot\Robot_16\SerialPortHandler\bin\Debug\SerialPortHandler.dll
+H:\NewRobot\Robot_16\SerialPortHandler\bin\Debug\SerialPortHandler.pdb
+H:\NewRobot\Robot_16\SerialPortHandler\obj\Debug\SerialPortHandler.csprojResolveAssemblyReference.cache
+H:\NewRobot\Robot_16\SerialPortHandler\obj\Debug\SerialPortHandler.dll
+H:\NewRobot\Robot_16\SerialPortHandler\obj\Debug\SerialPortHandler.pdb

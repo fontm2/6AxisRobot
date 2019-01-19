@@ -1,0 +1,574 @@
+c:\users\mat1\documents\visual studio 2013\Projects\Robot\Robot\bin\Debug\Robot.exe.config
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\MainWindow.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\MainWindow.g.cs
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\App.g.cs
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot_MarkupCompile.cache
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.g.resources
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.Properties.Resources.resources
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Robot.exe
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Robot.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Factory.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\SerialPortHandler.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Factory.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\SerialPortHandler.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.exe
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Robot.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Kinematics.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Kinematics.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleAnimationen.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleDatagrid.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleGradients.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleListView.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\Styles.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleTabControl.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\StyleTreeView.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\obj\Debug\App.baml
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Data.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\NC.dll
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\Data.pdb
+C:\Users\mat1\Documents\Visual Studio 2013\Projects\Robot\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_1\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_2\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Robot.exe.config
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.exe
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Robot.exe
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Robot.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Data.dll
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Factory.dll
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Kinematics.dll
+E:\VisualStudio\Robot_3\Robot\bin\Debug\NC.dll
+E:\VisualStudio\Robot_3\Robot\bin\Debug\SerialPortHandler.dll
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Data.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Factory.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\Kinematics.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\NC.pdb
+E:\VisualStudio\Robot_3\Robot\bin\Debug\SerialPortHandler.pdb
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+E:\VisualStudio\Robot_3\Robot\obj\Debug\MainWindow.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleAnimationen.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleDatagrid.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleGradients.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleListView.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Styles.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleTabControl.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\StyleTreeView.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\App.baml
+E:\VisualStudio\Robot_3\Robot\obj\Debug\MainWindow.g.cs
+E:\VisualStudio\Robot_3\Robot\obj\Debug\App.g.cs
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot_MarkupCompile.cache
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.g.resources
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.Properties.Resources.resources
+E:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+F:\VisualStudio\Robot_3\Robot\bin\Debug\Robot.exe.config
+F:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.exe
+F:\VisualStudio\Robot_3\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_3\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_4\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Data.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Factory.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Kinematics.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\NC.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\SerialPortHandler.dll
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Data.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Factory.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\Kinematics.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\NC.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\DiagnoseTable.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Simulation.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Simulation.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_5\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_6\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_6\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_6\Robot\obj\Debug\Robot.pdb
+E:\VisualStudio\Robot_7\Robot\bin\Debug\Robot.exe.config
+E:\VisualStudio\Robot_7\Robot\obj\Debug\Robot.exe
+E:\VisualStudio\Robot_7\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_8\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_8\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_8\Robot\obj\Debug\Robot.pdb
+E:\NewRobot\Robot_8\Robot\bin\Debug\Robot.exe.config
+E:\NewRobot\Robot_8\Robot\obj\Debug\Robot.exe
+E:\NewRobot\Robot_8\Robot\obj\Debug\Robot.pdb
+E:\NewRobot\Robot_9\Robot\bin\Debug\Robot.exe.config
+E:\NewRobot\Robot_9\Robot\obj\Debug\Robot.exe
+E:\NewRobot\Robot_9\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_9\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_9\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_9\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\bin\Debug\Robot.exe.config
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.exe
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.pdb
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\DiagnoseTable.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\MainWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Simulation.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleAnimationen.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleDatagrid.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleGradients.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleListView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Styles.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleTabControl.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\StyleTreeView.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\App.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\MainWindow.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Simulation.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\App.g.cs
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.g.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\SimulationWindow.baml
+D:\Alles vom Desktop\______Neuste_Robot________\Robot_10\Robot\obj\Debug\SimulationWindow.g.cs
+C:\Programming\NewRobot\Robot_10\Robot\bin\Debug\Robot.exe.config
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot.exe
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\DiagnoseTable.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\MainWindow.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Simulation.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleAnimationen.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleDatagrid.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleGradients.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleListView.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Styles.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleTabControl.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\StyleTreeView.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\App.baml
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\DiagnoseTable.g.cs
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\MainWindow.g.cs
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Simulation.g.cs
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\App.g.cs
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot_MarkupCompile.cache
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot.g.resources
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot.Properties.Resources.resources
+C:\Programming\NewRobot\Robot_10\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\NewRobot\Robot_11\Robot\bin\Debug\Robot.exe.config
+D:\NewRobot\Robot_11\Robot\obj\Debug\Robot.exe
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Robot.exe.config
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.exe
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\DiagnoseTable.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\MainWindow.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Simulation.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleAnimationen.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleDatagrid.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleGradients.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleListView.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Styles.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleTabControl.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\StyleTreeView.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\App.baml
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\MainWindow.g.cs
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Simulation.g.cs
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\App.g.cs
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.g.resources
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Robot.exe
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Robot.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Data.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Factory.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\FileHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Kinematics.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\NC.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Simulation.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Data.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Factory.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\FileHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Kinematics.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\NC.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Simulation.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\obj\Debug\Robot.pdb
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.dll
+D:\NewRobot\Robot_13_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.xml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.exe.config
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.exe
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\DiagnoseTable.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\MainWindow.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleAnimationen.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleDatagrid.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleGradients.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleListView.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Styles.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleTabControl.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleTreeView.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\App.baml
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\MainWindow.g.cs
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\App.g.cs
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.g.resources
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.exe
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Data.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Factory.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\FileHandler.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Kinematics.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\NC.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\SerialPortHandler.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Simulation.dll
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Data.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Factory.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\FileHandler.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Kinematics.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\NC.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\SerialPortHandler.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Simulation.pdb
+D:\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.xml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.exe.config
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.exe
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.exe
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Robot.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Data.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Factory.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\FileHandler.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Kinematics.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\NC.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\SerialPortHandler.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Simulation.dll
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Data.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Factory.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\FileHandler.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Kinematics.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\NC.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Simulation.pdb
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\bin\Debug\Microsoft.Kinect.xml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\DiagnoseTable.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\MainWindow.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleAnimationen.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleDatagrid.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleGradients.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleListView.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Styles.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleTabControl.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\StyleTreeView.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\App.baml
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\MainWindow.g.cs
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\App.g.cs
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.g.resources
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Projects\NewRobot\Robot_14_new_IK_Method\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Robot.exe.config
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.exe
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Robot.exe
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Robot.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Data.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Factory.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\FileHandler.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Kinematics.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Microsoft.Kinect.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\NC.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\SerialPortHandler.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Simulation.dll
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Data.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Factory.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\FileHandler.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Kinematics.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\NC.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\SerialPortHandler.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Simulation.pdb
+D:\Projects\NewRobot\Robot_15\Robot\bin\Debug\Microsoft.Kinect.xml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\DiagnoseTable.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\MainWindow.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleAnimationen.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleDatagrid.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleGradients.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleListView.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Styles.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleTabControl.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\StyleTreeView.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\App.baml
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\DiagnoseTable.g.cs
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\MainWindow.g.cs
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\App.g.cs
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot_MarkupCompile.cache
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.g.resources
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.Properties.Resources.resources
+D:\Projects\NewRobot\Robot_15\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+K:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe.config
+K:\NewRobot\Robot_16\Robot\obj\Debug\Robot.exe
+K:\NewRobot\Robot_16\Robot\obj\Debug\Robot.pdb
+F:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe.config
+F:\NewRobot\Robot_16\Robot\obj\Debug\Robot.exe
+F:\NewRobot\Robot_16\Robot\obj\Debug\Robot.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe.config
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.exe
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe
+E:\NewRobot\Robot_16\Robot\bin\Debug\Robot.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Data.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\Factory.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\FileHandler.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\Kinematics.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\NC.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\SerialPortHandler.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\Simulation.dll
+E:\NewRobot\Robot_16\Robot\bin\Debug\Data.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Factory.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\FileHandler.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Kinematics.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\NC.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\SerialPortHandler.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Simulation.pdb
+E:\NewRobot\Robot_16\Robot\bin\Debug\Microsoft.Kinect.xml
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+E:\NewRobot\Robot_16\Robot\obj\Debug\DiagnoseTable.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\MainWindow.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleAnimationen.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleDatagrid.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleGradients.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleListView.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\Styles.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleTabControl.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\StyleTreeView.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\App.baml
+E:\NewRobot\Robot_16\Robot\obj\Debug\DiagnoseTable.g.cs
+E:\NewRobot\Robot_16\Robot\obj\Debug\MainWindow.g.cs
+E:\NewRobot\Robot_16\Robot\obj\Debug\App.g.cs
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot_MarkupCompile.cache
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.g.resources
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.Properties.Resources.resources
+E:\NewRobot\Robot_16\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+G:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe.config
+G:\NewRobot\Robot_16\Robot\obj\Debug\Robot.exe
+G:\NewRobot\Robot_16\Robot\obj\Debug\Robot.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe.config
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.exe
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Robot.exe
+H:\NewRobot\Robot_16\Robot\bin\Debug\Robot.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Data.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\Factory.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\FileHandler.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\Kinematics.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\Microsoft.Kinect.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\NC.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\SerialPortHandler.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\Simulation.dll
+H:\NewRobot\Robot_16\Robot\bin\Debug\Data.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Factory.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\FileHandler.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Kinematics.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\NC.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\SerialPortHandler.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Simulation.pdb
+H:\NewRobot\Robot_16\Robot\bin\Debug\Microsoft.Kinect.xml
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+H:\NewRobot\Robot_16\Robot\obj\Debug\DiagnoseTable.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\MainWindow.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleAnimationen.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleDatagrid.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleGradients.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleListView.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\Styles.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleTabControl.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\StyleTreeView.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\App.baml
+H:\NewRobot\Robot_16\Robot\obj\Debug\DiagnoseTable.g.cs
+H:\NewRobot\Robot_16\Robot\obj\Debug\MainWindow.g.cs
+H:\NewRobot\Robot_16\Robot\obj\Debug\App.g.cs
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot_MarkupCompile.cache
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.g.resources
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.Properties.Resources.resources
+H:\NewRobot\Robot_16\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache
+G:\Robot\Robot\bin\Debug\Robot.exe.config
+G:\Robot\Robot\obj\Debug\Robot.exe
+G:\Robot\Robot\obj\Debug\Robot.pdb
+G:\Robot\Robot\bin\Debug\Robot.exe
+G:\Robot\Robot\bin\Debug\Robot.pdb
+G:\Robot\Robot\bin\Debug\Data.dll
+G:\Robot\Robot\bin\Debug\Factory.dll
+G:\Robot\Robot\bin\Debug\FileHandler.dll
+G:\Robot\Robot\bin\Debug\Kinematics.dll
+G:\Robot\Robot\bin\Debug\Microsoft.Kinect.dll
+G:\Robot\Robot\bin\Debug\NC.dll
+G:\Robot\Robot\bin\Debug\SerialPortHandler.dll
+G:\Robot\Robot\bin\Debug\Simulation.dll
+G:\Robot\Robot\bin\Debug\Data.pdb
+G:\Robot\Robot\bin\Debug\Factory.pdb
+G:\Robot\Robot\bin\Debug\FileHandler.pdb
+G:\Robot\Robot\bin\Debug\Kinematics.pdb
+G:\Robot\Robot\bin\Debug\NC.pdb
+G:\Robot\Robot\bin\Debug\SerialPortHandler.pdb
+G:\Robot\Robot\bin\Debug\Simulation.pdb
+G:\Robot\Robot\bin\Debug\Microsoft.Kinect.xml
+G:\Robot\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+G:\Robot\Robot\obj\Debug\DiagnoseTable.baml
+G:\Robot\Robot\obj\Debug\MainWindow.baml
+G:\Robot\Robot\obj\Debug\StyleAnimationen.baml
+G:\Robot\Robot\obj\Debug\StyleDatagrid.baml
+G:\Robot\Robot\obj\Debug\StyleGradients.baml
+G:\Robot\Robot\obj\Debug\StyleListView.baml
+G:\Robot\Robot\obj\Debug\Styles.baml
+G:\Robot\Robot\obj\Debug\StyleTabControl.baml
+G:\Robot\Robot\obj\Debug\StyleTreeView.baml
+G:\Robot\Robot\obj\Debug\App.baml
+G:\Robot\Robot\obj\Debug\DiagnoseTable.g.cs
+G:\Robot\Robot\obj\Debug\MainWindow.g.cs
+G:\Robot\Robot\obj\Debug\App.g.cs
+G:\Robot\Robot\obj\Debug\Robot_MarkupCompile.cache
+G:\Robot\Robot\obj\Debug\Robot.g.resources
+G:\Robot\Robot\obj\Debug\Robot.Properties.Resources.resources
+G:\Robot\Robot\obj\Debug\Robot.csproj.GenerateResource.Cache

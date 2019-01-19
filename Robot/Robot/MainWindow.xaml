@@ -1,0 +1,482 @@
+﻿<Window x:Class="Robot.MainWindow"
+        x:Name = "Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Robot Control Interface" Height="1000" Width="1700" WindowState="Maximized"
+        Closing="Window_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="Open" CanExecute="Open_activ" Executed="Open_execute"/>
+        <CommandBinding Command="Save" CanExecute="Save_activ" Executed="Save_execute"/>
+        <CommandBinding Command="SaveAs" CanExecute="SaveAs_activ" Executed="SaveAs_execute"/>
+        <CommandBinding Command="Close" CanExecute="Close_activ" Executed="Close_execute"/>
+    </Window.CommandBindings>
+    <DockPanel Background="Gray">
+        <Menu DockPanel.Dock="Top" Height="30" Foreground="White" Margin="0,0,0,2" Background="Black">
+            <MenuItem Header="Datei">
+                <MenuItem Background="Black" Command="Open"/>
+                <MenuItem Background="Black" Command="Save"/>
+                <MenuItem Background="Black" Command="SaveAs"/>
+                <MenuItem Background="Black" Command="Close"/>
+            </MenuItem>
+            <MenuItem Name="Mode" Header="Mode">
+            </MenuItem>
+        </Menu>
+        <TabControl Name="Tabs1" TabStripPlacement="Top" Background="White" BorderBrush="White">
+            <TabItem Header="Normal-Modus" IsSelected="True" Style="{StaticResource CustomTabItem}">
+                <DockPanel DockPanel.Dock="Top">
+                    <UniformGrid DockPanel.Dock="Top" Rows="1"  Background="Black">
+                        <Label Width="300" Foreground="White" HorizontalAlignment="Left" Content="Inverse Kinematik und Kinect-Steuerung" FontSize="15"/>
+                        <Label Name="Mode_Lable" Foreground="White" Content="Normal-Mode"></Label>
+                    </UniformGrid>
+                    <Grid DockPanel.Dock="Top">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2.1*"/>
+                            <RowDefinition Height="0.5*"/>
+                            <RowDefinition Height="0.67*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2.5*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,2,1,1"  Orientation="Vertical"  Background="Black" >
+                            <Label Content="Manual Settings und IK-Bedienelemente" Foreground="White" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                            <UniformGrid Background="White" Height="2"></UniformGrid>
+                            <Label Foreground="White"  Content="Manuelle Positionierung" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Motor Auswählen"></Label>
+                                <ComboBox Name="comboBox1" Margin="5" Style="{StaticResource CustomCombobox2}" ItemContainerStyle="{StaticResource ItemStyle2}"/>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="AnzufahrendePosition"  Width="100" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Content="Motor auf Position" Style="{StaticResource Custombutton}" Width="110" HorizontalAlignment="Left" Click="ManualPositioning" Name="ManualPosMotorButton" Margin="5"></Button>
+                                <!--<Button Content="MotorInit" Style="{StaticResource Custombutton}" Width="90" HorizontalAlignment="Left" Click="initialisiere" Name="Initialisiere" Margin="5"></Button>--><!--Ausgemusterter Button-->
+                                <Button Content="GetCOM" Style="{StaticResource Custombutton}" Width="90" HorizontalAlignment="Left" Click="GetCOMNames_Main" Name="GetCOMNamesBotton" Margin="5"></Button>
+                                <ComboBox Name="comboBox3" Margin="5" IsEnabled="False" Style="{StaticResource CustomCombobox2}" ItemContainerStyle="{StaticResource ItemStyle2}"/>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" Content="Move" Height="25" Width="110" HorizontalAlignment="Left" MouseDown="MoveManualStart" MouseUp="MoveManualStop" Name="MoveButton" Margin="5"></Button>
+                                <CheckBox Name="cb1" Grid.Row="1" Foreground="White" Margin="15,8,0,0" IsChecked="True" Content="ROR"/>
+                                <CheckBox Name="cb2" Grid.Row="1" Foreground="White" Margin="15,8,0,0" IsChecked="False" Content="ROL"/>
+                            </UniformGrid>
+                            <UniformGrid Background="White" Height="2"></UniformGrid>
+                            <Label Content="Global Settings" FontSize="12" HorizontalAlignment="Center" Margin="5"></Label>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" Height="25" Name="GlobalMaxSpeedButton" Content="GlobalMaxSpeed" Width="130" Click="SetMaxSpeed" HorizontalAlignment="Left" Margin="5"></Button>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxGlobalMaxSpeed"  HorizontalAlignment="Left" Text="100"  Width="100" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="GlobalMaxAcceleration" Name="GlobalMaxAccelerationButton" Click="SetMaxAcceleration" Width="130"  HorizontalAlignment="Left" Margin="5"></Button>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxGlobalMaxAcceleration"  HorizontalAlignment="Left" Text="100" Width="100" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Background="White" Height="2"></UniformGrid>
+                            <Grid  Background="Black">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="1" Foreground="White" Content="IK-WK" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+
+                                <Button Grid.Row="1" Grid.Column="1" Content="Calc IK-WK" Height="25" Style="{StaticResource Custombutton}" Width="90" HorizontalAlignment="Center" Click="CalculateIK" Name="CalculatorIK2" Margin="5"></Button>
+                                <Button Grid.Row="2" Grid.Column="1" Content="Move to IK-WK" Height="25" Style="{StaticResource Custombutton}" Width="90" HorizontalAlignment="Center" Click="Move_IK" Name="MoverKinematicsButton" Margin="5"></Button>
+                            </Grid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Button Name="CurrentButton" Width="100" Height="30" Style="{StaticResource Custombutton}" Content="Current" Click="SetCurrent"></Button>
+                                <TextBox Name="tbCurent" Style="{StaticResource CustomTextBox}" Width="100" Text="250"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="50,20,50,10">
+                                <Button Name="StandyButton" Width="120" Height="50" Style="{StaticResource StopButton}" Content="Standby" Click="Standby_Click"></Button>
+                                <Button Name="HomeButton" Width="120" Height="50" Style="{StaticResource StopButton}" Content="Home" Click="Home_Click"></Button>
+                            </UniformGrid>
+                        </StackPanel>
+                        <StackPanel Grid.Row="0" Grid.Column="1" Margin="1,2,1,1" Orientation="Vertical"  Background="Black">
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Content="Inverse Kinematik Daten" Foreground="White" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                                <Button Content="Position nullen" Style="{StaticResource Custombutton}" Width="110" Height="25" HorizontalAlignment="Center" Click="Position_Nullen" x:Name="Null"></Button>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="v (x)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxV" Text="15" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="u (y)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxU" Text="15" Margin="5" ></TextBox>
+                                <Label Foreground="White" Content="y (z)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxY" Text="35" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Alpha"  Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxAlpha" Text="0" Margin="5" ></TextBox>
+                                <Label Foreground="White" Content="Beta" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxBeta" Text="0" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Gamma" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxGamma" Text="0" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Teta1" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta1" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps1" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta1Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed1" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta1Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Teta2" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta2" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps2" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta2Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed2" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta2Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Teta3" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta3" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps3" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta3Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed3" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta3Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Teta4" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta4" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps4" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta4Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed4" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta4Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Tet5" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta5" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps5" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta5Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed5" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta5Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Tet6" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta6" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Steps6" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta6Steps" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Speed6" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxTeta6Speed" Margin="5"></TextBox>
+                            </UniformGrid>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,1,1,2" Orientation="Vertical"  Background="Black">
+                            <Button Style="{StaticResource StopButton}" Name="MotorStopButton" Content="Motoren Stop" Margin="0,20,0,0" FontSize="20" Height="60" Width="150" Click="Stop_Motoren"></Button>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1" Margin="1,1,1,2" Orientation="Vertical" Background="Black">
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Grid.Row="0" Margin="1,2,1,2" Grid.Column="2" Grid.RowSpan="2" Background="Black">
+                            <Label Foreground="White" Content="Momentane Position" FontSize="15" HorizontalAlignment="Center" Margin="2"></Label>
+                            <ComboBox Margin="5" Name="comboBox2" SelectionChanged="selection_changed" Style="{StaticResource CustomCombobox2}" ItemContainerStyle="{StaticResource ItemStyle2}"/>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White"  Content="Position1" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition1" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Position2" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition2" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Position3" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition3" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Position4" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition4" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Position5" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition5" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Position6" FontSize="10" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxPosition6" Margin="5">
+                                </TextBox>
+                            </UniformGrid>
+                            <UniformGrid Background="Black" Height="5"></UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="v (x)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxV" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="u (y)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxU" Margin="5" ></TextBox>
+                                <Label Foreground="White" Content="y (z)" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxY" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Alpha"  Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxAlpha"  Margin="5" ></TextBox>
+                                <Label Foreground="White" Content="Beta" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxBeta" Margin="5"></TextBox>
+                                <Label Foreground="White" Content="Gamma" Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="BoxGamma" Margin="5"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Margin="5" Style="{StaticResource Custombutton}" Content="Foreward Kinematic" Name="Foreward_Kinematic" Click="FK" HorizontalAlignment="Center" IsEnabled="False" Height="25" Width="100"></Button>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Margin="5" Style="{StaticResource Custombutton}" IsEnabled="False" Content="Start NC Calculation" Height="25" Width="100" Name="StartNCCalc" Click="StartNCCalculation"></Button>
+                                <Button Margin="5" Style="{StaticResource Custombutton}" IsEnabled="False" Content="GCode Diagnose" Height="25" Width="100" Name="G_Code_Diagnose" Click="GCodeDiagnose"></Button>
+                            </UniformGrid>
+                        </StackPanel>
+                        <DockPanel Grid.Row="2" Margin="0,0,1,0" Grid.Column="0" Grid.ColumnSpan="3" Background="Black">
+                            <StackPanel>
+                                <ListView Style="{StaticResource CustomListView}" Name="tabelle1" Margin="5" Height="130" Width="1000" VerticalAlignment="Center" ItemContainerStyle="{StaticResource CustomListViewItem}">
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridView.Columns>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Position"  DisplayMemberBinding="{Binding Path=gPos, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed1"  DisplayMemberBinding="{Binding Path=gSpeed1, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed2"  DisplayMemberBinding="{Binding Path=gSpeed2, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed3"  DisplayMemberBinding="{Binding Path=gSpeed3, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed4"  DisplayMemberBinding="{Binding Path=gSpeed4, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed5"  DisplayMemberBinding="{Binding Path=gSpeed5, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Speed6"  DisplayMemberBinding="{Binding Path=gSpeed6, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps1"  DisplayMemberBinding="{Binding Path=gSteps1, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps2"  DisplayMemberBinding="{Binding Path=gSteps2, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps3"  DisplayMemberBinding="{Binding Path=gSteps3, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps4"  DisplayMemberBinding="{Binding Path=gSteps4, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps5"  DisplayMemberBinding="{Binding Path=gSteps5, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Steps6"  DisplayMemberBinding="{Binding Path=gSteps6, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps1"  DisplayMemberBinding="{Binding Path=gDeltaSteps1, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps2"  DisplayMemberBinding="{Binding Path=gDeltaSteps2, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps3"  DisplayMemberBinding="{Binding Path=gDeltaSteps3, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps4"  DisplayMemberBinding="{Binding Path=gDeltaSteps4, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps5"  DisplayMemberBinding="{Binding Path=gDeltaSteps5, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="DeltaSteps6"  DisplayMemberBinding="{Binding Path=gDeltaSteps6, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel1"  DisplayMemberBinding="{Binding Path=gWinkel1, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel2"  DisplayMemberBinding="{Binding Path=gWinkel2, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel3"  DisplayMemberBinding="{Binding Path=gWinkel3, Mode=TwoWay}"/>
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel4"  DisplayMemberBinding="{Binding Path=gWinkel4, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel5"  DisplayMemberBinding="{Binding Path=gWinkel5, Mode=TwoWay}" />
+                                                <GridViewColumn HeaderContainerStyle="{ StaticResource CustomHeader0}" Header="Winkel6"  DisplayMemberBinding="{Binding Path=gWinkel6, Mode=TwoWay}" />
+                                            </GridView.Columns>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </StackPanel>
+                        </DockPanel>
+                        <StackPanel Grid.Row="0" Grid.Column="3" Margin="1,2,0,1" Orientation="Vertical"  Background="Black" >
+                            <Label Foreground="White" Content="Manuele Kinematik anpassung" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                            <UniformGrid Rows="1" Margin="5">
+                                <CheckBox Name="cb" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" IsChecked="True" Foreground="White" Content="+"/>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="V" Width="60" HorizontalAlignment="Left" MouseDown="V_DOWN" MouseUp="V_UP" Name="V" Margin="10"></Button>
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="U" Width="60" HorizontalAlignment="Left" MouseDown="U_DOWN" MouseUp="U_UP" Name="U" Margin="10"></Button>
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="Y" Width="60" HorizontalAlignment="Left" MouseDown="Y_DOWN" MouseUp="Y_UP" Name="Y" Margin="10"></Button>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="Alpha" Width="60" HorizontalAlignment="Left" MouseDown="ALPHA_DOWN" MouseUp="ALPHA_UP" Name="ALPHA" Margin="10"></Button>
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="Betta" Width="60" HorizontalAlignment="Left" MouseDown="BETA_DOWN" MouseUp="BETA_UP" Name="BETA" Margin="10"></Button>
+                                <Button Style="{StaticResource Custombutton}" IsEnabled="False" Height="25" Content="Gamma" Width="60" HorizontalAlignment="Left" MouseDown="GAMMA_DOWN" MouseUp="GAMMA_UP" Name="GAMMA" Margin="10"></Button>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="5">
+                                <Label Foreground="White" Content="Milliseconds per Increment: " Margin="5"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Height="20" Name="MilisTextBox" Text="25" Margin="0,0,5,0"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="Clear G-Code" Name="G_Code_Clear" IsEnabled="False" Click="ClearGCode" Margin="5"></Button>
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="GCode zu xaml" Name="G_Code_Converter" IsEnabled="False" Click="GCodeXAML" Margin="5"></Button>
+                            </UniformGrid>
+                            <UniformGrid Rows="1">
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="Start G-Code" Name="G_Code_Start" IsEnabled="False" Click="StartGCode" Margin="5"></Button>
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="Stop G-Code" Name="G_Code_Stop" IsEnabled="False" Click="StopGCode" Margin="5"></Button>
+                                <Button Style="{StaticResource Custombutton}" Height="25" Content="Continue G-Code" Name="G_Code_Continue" IsEnabled="False" Click="ContinueGCode" Margin="5"></Button>
+                            </UniformGrid>
+                        </StackPanel>
+                        <DockPanel Grid.Row="1" Grid.Column="3" Margin="1,1,0,0" Grid.RowSpan="2" Background="Black" Grid.ColumnSpan="3">
+                            <DataGrid Name="dataGrid" Height="200" ColumnHeaderStyle ="{StaticResource CustomDataGridHeader}" Style="{StaticResource CustomDatagrid}" RowStyle="{StaticResource CustomDataGridRow}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Foreground="White" Header="G-Code"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DockPanel>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Kinect-Modus" IsSelected="False" Style="{StaticResource CustomTabItem}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0"  Orientation="Vertical"  Background="Black" Margin="0,0,1,1">
+                        <Label Foreground="White" Content="9DOF" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                        <UniformGrid Rows="1">
+                            <!--<Button Style="{StaticResource Custombutton}" Content="9DOF öffnen" Name="OPEN_DOF" Click="DOF_oeffnen" HorizontalAlignment="Left" Width="98" Margin="5"></Button>-->
+                            <Label Foreground="White" Content="pitch:"></Label>
+                            <TextBox Style="{StaticResource CustomTextBox}" Name="pitchTextbox" Margin="3"></TextBox>
+                        </UniformGrid>
+                        <UniformGrid Rows="1">
+                            <!--<Button Style="{StaticResource Custombutton}" Content="9DOF schliessen" Name="CLOSE_DOF" Click="DOF_close" HorizontalAlignment="Left" Width="98" Margin="5"></Button>-->
+                            <Label Foreground="White" Content="roll:"></Label>
+                            <TextBox Style="{StaticResource CustomTextBox}" Name="rollTextbox" Margin="3"></TextBox>
+                        </UniformGrid>
+                        <UniformGrid Background="White" Margin="5" Height="5"></UniformGrid>
+                        <Label Foreground="White" DockPanel.Dock="Top" Content="Kinect" FontSize="15" HorizontalAlignment="Center" Margin="5"></Label>
+                        <Grid DockPanel.Dock="Top">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <!--<Button Style="{StaticResource Custombutton}" Grid.Row="0" Grid.Column="0" Content="Kinect öffnen" Name="OPEN_Kinect" Click="Kinect_oeffnen" HorizontalAlignment="Left" Width="100" Margin="3"></Button>
+                            <Button Style="{StaticResource Custombutton}" Grid.Row="5" Grid.Column="0" Content="Timer starten" Name="TIMER_START" Click="Timer_start" HorizontalAlignment="Left" Width="100" Margin="3"></Button>
+                            <Button Style="{StaticResource Custombutton}" Grid.Row="5" Grid.Column="1" Content="Timer stoppen" Name="TIMER_STOP" Click="Timer_stop" HorizontalAlignment="Left" Width="100" Margin="3"></Button>
+                            <Button Style="{StaticResource Custombutton}" Grid.Row="1" Grid.Column="0" Content="Kinect schliessen" Name="CLOSE_Kinect" Click="Kinect_close" HorizontalAlignment="Left" Width="100" Margin="3"></Button>
+                            <Button Style="{StaticResource Custombutton}" Grid.Row="3" Grid.Column="1" Content="Vres setzen" Name="V_res_Kinect" Click="Set_V_res" HorizontalAlignment="Left" Width="100" Margin="3"></Button>-->
+                            <UniformGrid Rows="1" Grid.Row="0" Grid.Column="1">
+                                <Label Foreground="White" Content="V:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxVKinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="1" Grid.Column="1">
+                                <Label Foreground="White" Content="U:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxUKinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="2" Grid.Column="1">
+                                <Label Foreground="White" Content="Y:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="TextBoxYKinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="0" Grid.Column="2">
+                                <Label Foreground="White" Content="t1:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="t1_kinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="1" Grid.Column="2">
+                                <Label Foreground="White" Content="t2:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="t2_kinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="2" Grid.Column="2">
+                                <Label Foreground="White" Content="t4:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="t4_kinect" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="3" Grid.Column="0">
+                                <Label Foreground="White" Content="V_res:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="V_res_TextBox" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="4" Grid.Column="0">
+                                <Label Foreground="White" Content="vt1:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="vt1_TextBox" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="4" Grid.Column="1">
+                                <Label Foreground="White" Content="vt2:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="vt2_TextBox" Margin="3"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Grid.Row="4" Grid.Column="2">
+                                <Label Foreground="White" Content="vt4:"></Label>
+                                <TextBox Style="{StaticResource CustomTextBox}" Name="vt4_TextBox" Margin="3"></TextBox>
+                            </UniformGrid>
+                        </Grid>
+                    </StackPanel>
+                    <DockPanel Grid.Row="1" Grid.Column="0" Background="Black" Margin="0,1,1,0">
+                        <Button Style="{StaticResource StopButton}" Content="Motoren Stop" FontSize="25" Height="80" Width="200" Click="Stop_Motoren_Kinect"></Button>
+                    </DockPanel>
+                    <DockPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Background="Black" Margin="1,0,0,0">
+                        <Grid Name="camera_Grid">
+                            <Image Name="camera" Width="640" Height="480" />
+                            <Canvas Name="canvas" Width="640" Height="480" />
+                        </Grid>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Daten/Simulation" Name="Daten_Simulation_Tab" IsSelected="False" Style="{StaticResource CustomTabItem}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Resources>
+                        <HierarchicalDataTemplate x:Key="UnterKnoten">
+                            <!--der UnterKnoten bedarf nicht nochmal einer zuweisung einer ItemsSource, da dies bereits im ErsterKnoten unter ItemsSource dem UnterKnoten zugewiesen wurde, an Welche Quelle-->
+                            <!--er gebunden wird. Hier an SubNode, eine ObservableCOllection, die Objekte aus der Klasse SubNode enthält die ein Property namens "SubNodeName" haben, an welches der Text des TextBlocks gebunden wird-->
+                            <StackPanel>
+                                <TextBlock FontStyle="Italic" FontSize="15" Text="{Binding Path=SubNodeName}" Foreground="White" />
+                            </StackPanel>
+                        </HierarchicalDataTemplate>
+                        <HierarchicalDataTemplate x:Key="ErsterKnoten" ItemsSource="{Binding Path=SubNode}" ItemTemplate="{StaticResource UnterKnoten}">
+                            <!--ItemsSource="{Binding Path=SubNode}" ItemsSource ist die Datenquelle die dieser ErsterKnoten als in seinen UterKnoten enthalten soll;-->
+                            <!--SubNode ist eine ObservableCollection aus der Klasse TreeViewNode, die die Daten für die UnterKnoten (Objekte aus der Klasse SubNode) enthält.-->
+                            <!--ItemTemplate="{StaticResource UnterKnoten}" gibt an, wie die Unterknoten aussehen sollen und welche Bindings sie haben (Text der TextBox des Unterknoten ist an das SubNodeName-Property der Objekte der Klasse SubNode gebunden-->
+                            <TextBlock FontSize="15" Text="{Binding Path=NodeName}" FontWeight="Bold"  Foreground="White"/>
+                        </HierarchicalDataTemplate>
+                    </Grid.Resources>
+                    <TreeView ItemContainerStyle="{StaticResource CustomTreeViewItem}" SelectedItemChanged="TreeViewSelectedItemChanged" Margin="0,0,1,0" Background="Black" ItemsSource="{Binding}" ItemTemplate="{StaticResource ErsterKnoten}" x:Name="DataTreeView" />
+                    <!--ItemTemplate="{StaticResource ErsterKnoten}" das Template des Ersten Knotens hinzufügen, da alles andere über diesen verlinkt ist-->
+                    <Grid Grid.Column="1" Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Margin="1,0,1,1" Grid.RowSpan="2" Grid.Column="0" Grid.Row="0" Background="Black">
+                            <Label FontSize="15" Foreground="White" Content="TreeView-Daten" HorizontalAlignment="Center"></Label>
+                            <StackPanel Background="Black"  Orientation="Vertical" Name="TreeViewDisplayData"></StackPanel>
+                        </StackPanel>
+                        <!--<StackPanel Margin="1,0,0,1" Grid.Column="1" Grid.Row="0" Background="Black"></StackPanel>
+                        <StackPanel Margin="1,1,1,0" Grid.Column="0" Grid.Row="1" Background="Black"></StackPanel>
+                        <StackPanel Margin="1,1,0,0" Grid.Column="1" Grid.Row="1" Background="Black"></StackPanel>-->
+                        <Grid Grid.Column="1" Grid.RowSpan="2" Name="Animation" Background="Black" Margin="1,0,0,0">
+
+                        </Grid>
+                        <StackPanel Grid.Column="2" Grid.RowSpan="2" Background="WhiteSmoke">
+                            <!--<Button Content="Hide Line" FontSize="15" Margin="3" Name="ShowHideLineButton" Click="ShowLines_Click"></Button>-->
+                            <Slider ValueChanged="Slider_ValueChanged_XZ" Margin="3"></Slider>
+                            <Slider Name="Slider_Up" Orientation="Vertical" Height="200" Width="20" ValueChanged="Slider_ValueChanged_Over" Margin="5"></Slider>
+                            <Slider Name="Slider_Zoom" ValueChanged="Slider_ValueChanged_Zoom" Margin="3"></Slider>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel0"></Label>
+                                <TextBox Name="Winkel0_Simu" Text="45" ></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel1"></Label>
+                                <TextBox Name="Winkel1_Simu" Text="-80" ></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel2"></Label>
+                                <TextBox Name="Winkel2_Simu" Text="190" ></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel3"></Label>
+                                <TextBox Name="Winkel3_Simu" Text="45" ></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel4"></Label>
+                                <TextBox Name="Winkel4_Simu" Text="50"></TextBox>
+                            </UniformGrid>
+                            <UniformGrid Rows="1" Margin="3">
+                                <Label FontSize="15" Content="Winkel5"></Label>
+                                <TextBox Name="Winkel5_Simu" Text="30"></TextBox>
+                            </UniformGrid>
+                            <!--<Button Name="AplyMotionButton" Width="120" Content="ApplyMotion" Margin="3" Click="ApplyMotion_Click"></Button>-->
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>
